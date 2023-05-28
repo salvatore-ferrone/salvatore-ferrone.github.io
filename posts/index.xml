@@ -14,7 +14,7 @@
       
       <guid>http://salvatore-ferrone.github.io/posts/mypost/</guid>
       <description>My name
-for i in range(10): print(i) </description>
+for i in range(10): print(i) every number between one and ten minus one is being printed</description>
     </item>
     
     <item>
