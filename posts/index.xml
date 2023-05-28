@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Salvatore Ferrone, Astronomer.</title>
+    <link>http://salvatore-ferrone.github.io/posts/</link>
+    <description>Recent content in Posts on Salvatore Ferrone, Astronomer.</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 28 May 2023 16:18:07 +0200</lastBuildDate><atom:link href="http://salvatore-ferrone.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The post</title>
+      <link>http://salvatore-ferrone.github.io/posts/mypost/</link>
+      <pubDate>Sun, 28 May 2023 16:18:07 +0200</pubDate>
+      
+      <guid>http://salvatore-ferrone.github.io/posts/mypost/</guid>
+      <description>My name
+for i in range(10): print(i) </description>
+    </item>
+    
+  </channel>
+</rss>
