@@ -6,26 +6,15 @@
     <description>Recent content on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 28 May 2023 16:18:07 +0200</lastBuildDate><atom:link href="http://salvatore-ferrone.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 25 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://salvatore-ferrone.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>The post</title>
-      <link>http://salvatore-ferrone.github.io/posts/mypost/</link>
-      <pubDate>Sun, 28 May 2023 16:18:07 +0200</pubDate>
-      
-      <guid>http://salvatore-ferrone.github.io/posts/mypost/</guid>
-      <description>My name
-for i in range(10): print(i) every number between one and ten minus one is being printed</description>
-    </item>
-    
-    <item>
-      <title>PhD checkpoint</title>
+      <title>PhD Checkpoint Num. 1</title>
       <link>http://salvatore-ferrone.github.io/posts/phd-checkpoint/</link>
       <pubDate>Thu, 25 May 2023 00:00:00 +0000</pubDate>
       
       <guid>http://salvatore-ferrone.github.io/posts/phd-checkpoint/</guid>
-      <description>PhD progress What do I need to present in this checkpoint? I need to show the courses that I&amp;rsquo;ve done, the conferences that I&amp;rsquo;ve presented at, the work that I&amp;rsquo;ve achomplished, and what I am planning to do in the future.
-Presentations STATISTIQUE des nombres de présentation. rendre le facile!
-Title Location Host date Simulating tidal debris production from all Galactic Globular Clusters EAS Valencia, Spain EAS June 2022 &#39;&#39; l&amp;rsquo;observatoire de la côte d&amp;rsquo;azur Vanessa Hill 14 September 2022 &#39;&#39; l&amp;rsquo;observatoire de Strasbourg Rodrigo Ibata 22 November 2022 &#39;&#39; Institute d&amp;rsquo;Astrophysique de Paris Elbereth 29 March 2023 Detection of 4.</description>
+      <description>la lingue officielle is franglais.
+PhD Checkpoint #1 To Dr. Gary Mamon and Dr. Françoise Combes, thank you for taking your time out to check in my progress. I hope that you will find my work satisfactory and can cretique it freely in the aims of forming a better scientist. To Dr. Paola Di Matteo, thank you for directing me and providing me with an opprotunity to make a valid contribution in astronomy.</description>
     </item>
     
     <item>
