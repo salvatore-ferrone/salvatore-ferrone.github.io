@@ -56,7 +56,7 @@
         },
         "datePublished": "2023-05-30",
         "description": "My comité de suivi de thèse.",
-        "wordCount":  2390 ,
+        "wordCount":  2603 ,
         "mainEntityOfPage": "True",
         "dateModified": "2023-05-30",
         "image": {
@@ -223,12 +223,11 @@ stroke-linejoin="round" class="feather feather-home">
         <li><a href="#projects-leading-towards-first-author-publication">Projects leading towards first author publication</a></li>
       </ul>
     </li>
-    <li><a href="#intended-future-projected">INTENDED FUTURE PROJECTED</a></li>
+    <li><a href="#intended-future-projectes">INTENDED FUTURE PROJECTES</a></li>
     <li><a href="#logistics">LOGISTICS</a>
       <ul>
-        <li><a href="#completed-courses-xx-hr-total">COMPLETED COURSES (xx hr /total)</a></li>
         <li><a href="#contributions-to-the-community">CONTRIBUTIONS TO THE COMMUNITY</a></li>
-        <li><a href="#future-summer-schools">FUTURE SUMMER SCHOOLS</a></li>
+        <li><a href="#completed-courses-70-hr">COMPLETED COURSES (70 hr)</a></li>
       </ul>
     </li>
   </ul>
@@ -361,7 +360,7 @@ Credit: <a href="https://doi.org/10.1111/j.1365-2966.2011.19097.x">Varghese et a
 <p><strong>Using Galpy</strong>. Upon publishing the paper on arkix, I got a message from someone suggesting me to use Galpy, a python library for galactic dynamics. I had never heard of it before. I was curious. Learning new code always requires a project and a deliverable. I wanted to see if I could reproduce the methods of varghese et al 2011. Namly, I wanted to use Galpy to do particle spray. This did not work. I still have issues. I limited it to some potential bugs, but I abandonded because it did not look fruitful. I summarized the functions that I needed in this <a href="https://gitlab.obspm.fr/sferrone/stream-orbit-tracing/-/blob/main/report/galpy-ref.ipynb">notebook</a>. The failed attempts to reconstruct the orbits using particle spray and Galpy can be found <a href="https://gitlab.obspm.fr/sferrone/stream-orbit-tracing/-/blob/main/code/notebooks/reproduce-stream.ipynb">here</a>. <a href="https://gitlab.obspm.fr/sferrone/stream-orbit-tracing/-/blob/main/code/notebooks/spray-scrap3.ipynb">Here is another one.</a></p>
 </li>
 <li>
-<p><a href="https://gitlab.obspm.fr/sferrone/stream-orbit-tracing">Stream-orbit systematic offset</a>. This project for now is also a bit of a null result. We wanted to see if there were any systematic predictors of the mis-match between the stream and the orbit.</p>
+<p><a href="https://gitlab.obspm.fr/sferrone/stream-orbit-tracing">Stream-orbit systematic offset</a>. This project for now is also a bit of a null result. We wanted to see if there were any systematic predictors of the mis-match between the stream and the orbit. It&rsquo;s not so easy!</p>
 </li>
 </ul>
 <h2 id="la-boule-de-crystal-what-does-the-future-have-in-store">La Boule de Crystal: What does the future have in store?</h2>
@@ -369,37 +368,83 @@ Credit: <a href="https://doi.org/10.1111/j.1365-2966.2011.19097.x">Varghese et a
 <table>
 <thead>
 <tr>
-<th>Title</th>
+<th>Type</th>
 <th>Location</th>
 <th>Host</th>
 <th>date</th>
 </tr>
 </thead>
+<tbody>
+<tr>
+<td>Presentation</td>
+<td>Sesto, Italia</td>
+<td>Paola Di Matteo, Florant Renaud</td>
+<td>June 2023</td>
+</tr>
+<tr>
+<td>Poster</td>
+<td>Granada, Spain</td>
+<td><a href="http://www.galacticbars2023.com/">Galactic bars: driving and decoding galaxy evolution</a></td>
+<td>July 2023</td>
+</tr>
+<tr>
+<td>Presentation</td>
+<td>Cracovie, Plogne</td>
+<td><a href="https://eas.unige.ch/EAS2023/program.jsp">EAS</a></td>
+<td>July 2023</td>
+</tr>
+</tbody>
 </table>
-<p>FILL IN TABLE OF SESTO, SPAIN, AND CRACOVIE</p>
 <h3 id="projects-leading-towards-first-author-publication">Projects leading towards first author publication</h3>
 <p>Here are some porjects aiming towards publication</p>
 <ol>
 <li>MORE PERTURBATIONS</li>
 </ol>
 <ul>
-<li>overview of <a href="https://gitlab.obspm.fr/sferrone/gc-tidal-loss">code</a></li>
-</ul>
-<ul>
-<li>Currently re-writing the code to be more adaptable to different potentials and perturbations.</li>
+<li>To redo and expand upon perturbations. Preliminary results of GC-GC interactions can be seen in my <a href="https://www.dropbox.com/home/postGrad/graduateSchools2/paris/spring_2021/courses/research/reports/stage_fall_2021?preview=LIU2_report_ferrone.pdf">M2 report de stage</a></li>
+<li>I am currently rewriting the <a href="https://gitlab.obspm.fr/sferrone/gc-tidal-loss">code</a> to be more adaptable to different potentials and perturbations.</li>
 </ul>
 <ol start="2">
 <li>SIMULATING IMAGING OF THE STREAMS</li>
 </ol>
-<h2 id="intended-future-projected">INTENDED FUTURE PROJECTED</h2>
 <ul>
-<li>Adding context to infering progenitor orbits from streams
-- to do that, I looked to <a href="https://doi.org/10.1111/j.1365-2966.2011.19097.x">Varghese et al 2010</a> as a guide and tried to reproduce their results.</li>
+<li>In parallel, I wish to build the machinery to make the simulations useful for obesrvers. Here is the current <a href="https://gitlab.obspm.fr/sferrone/artpop-streams">repository</a> for the project.</li>
+<li>Additionally, this should be able to make predictions.
+<ul>
+<li>how much are the streams are we blind to due to limitations in current surveys?</li>
+<li>how much more can we expect to see with future surveys?
+Here is a preliminary image.
+<img src="/Bound_NGC2808_LSST.png" alt="NGC2808">
+Credit: Ferrone et al 2023. Additionally, we used the <a href="https://artpop.readthedocs.io/en/latest/index.html">Artpop</a> package to get colors and magnitude of the stars, and simulate viewing it with the LSST telescope.</li>
 </ul>
-<p>Varghese&rsquo;s method for quick computational inference</p>
+</li>
+</ul>
+<h2 id="intended-future-projectes">INTENDED FUTURE PROJECTES</h2>
+<ul>
+<li>Bayesian inference</li>
+<li>Machine learning</li>
+<li>dimensionality reduction</li>
+</ul>
 <h2 id="logistics">LOGISTICS</h2>
-<h3 id="completed-courses-xx-hr-total">COMPLETED COURSES (xx hr /total)</h3>
-<p>quelle est la volume horaire pour moi ! et aussi pour les autres étudiants parce que je suis</p>
+<h3 id="contributions-to-the-community">CONTRIBUTIONS TO THE COMMUNITY</h3>
+<p>AJOUTER DES PARTICIPATION à L&rsquo;ESTABLISHMENT
+vie d&rsquo;etablisement</p>
+<ul>
+<li>Table Round en juin
+<ul>
+<li>method pedagogique à venire/</li>
+</ul>
+</li>
+<li>Table round PSL en septembre
+<ul>
+<li>Conversation with external comité of professors in order to evalute the progression of PSL becoming a grande école.</li>
+</ul>
+</li>
+<li>I organize our teams journal club meetings</li>
+<li>At la journée de la science, I participated in a workshop that taught children about galaxy formation with Legos.</li>
+</ul>
+<h3 id="completed-courses-70-hr">COMPLETED COURSES (70 hr)</h3>
+<p>In regards to my courses, a normal student must complete 135 hours (à verifier). With my contract, I only need to complete half of this to satisfy the requirements. I have completed 70 hours of courses. I have completed the following courses:</p>
 <table>
 <thead>
 <tr>
@@ -426,47 +471,25 @@ Credit: <a href="https://doi.org/10.1111/j.1365-2966.2011.19097.x">Varghese et a
 <td>16 Dec 2022</td>
 </tr>
 <tr>
-<td>ethics</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>seasonal school?</td>
-<td></td>
-<td></td>
-<td></td>
+<td>Scientific Integrity: Principles and Practice (SI)</td>
+<td>Dr. Jean Aboudarham</td>
+<td>8</td>
+<td>31 Mar 2023</td>
 <td></td>
 </tr>
 </tbody>
 </table>
-<p>combian des heures il me manque? combien des heures il me reste? est-ce qu&rsquo;il y a des cous obligatoire pendents l&rsquo;hiver ou l&rsquo;été? est-ce que je peux le faire en italie?</p>
-<h3 id="contributions-to-the-community">CONTRIBUTIONS TO THE COMMUNITY</h3>
-<p>AJOUTER DES PARTICIPATION à L&rsquo;ESTABLISHMENT
-vie d&rsquo;etablisement</p>
+<p>The scientific integreity course was an addition requirement. Apart from this, I must also compelte a summer/winder school. Regarding my future course desires, I would like to do:</p>
 <ul>
-<li>Table Round en juin
-<ul>
-<li>method pedagogique</li>
+<li>High Performance Computing</li>
+<li>Machine learning / dimensionality reduction</li>
+<li>Writing/Acting in French/Italian</li>
+<li>Stellar formation and evolution</li>
+<li>Advanced Hamiltonian dynamics</li>
+<li>Chaos theory</li>
+<li>General relativity II</li>
 </ul>
-</li>
-<li>Table round PSL en septembre
-<ul>
-<li>PSL</li>
-</ul>
-</li>
-<li>journal club 400000 persone par zoom viennent</li>
-<li>journée de la science</li>
-</ul>
-<h3 id="future-summer-schools">FUTURE SUMMER SCHOOLS</h3>
-<ul>
-<li>Maybe NASA&rsquo;s <a href="https://www.jpl.nasa.gov/edu/intern/apply/nasa-science-mission-design-schools/">Science Mission Design School</a> for next year?
-<ul>
-<li>I wrote in my letters that I am supposed to bridge the gap between europe and the US, perhaps its time to start aiming towards that? I also like the idea of a career in mission design, I think I can handle the stress.</li>
-</ul>
-</li>
-</ul>
+<p>In regards to a summer school, I have been looking at NASA&rsquo;s <a href="https://www.jpl.nasa.gov/edu/intern/apply/nasa-science-mission-design-schools/">Science Mission Design School</a>. Perhaps I could apply for next year? I wrote in my letters that I am supposed to bridge the gap between europe and the US, perhaps its time to start aiming towards that? I also like the idea of a career in mission design, my toolbox is not their yet but I think I can handle the stress of being a PI.</p>
 
             </div>
         </article></main>
