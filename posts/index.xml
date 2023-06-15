@@ -6,7 +6,17 @@
     <description>Recent content in Posts on Beta site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 30 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://salvatore-ferrone.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 15 Jun 2023 17:29:22 +0200</lastBuildDate><atom:link href="http://salvatore-ferrone.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The e-Tidal project</title>
+      <link>http://salvatore-ferrone.github.io/posts/etidal/</link>
+      <pubDate>Thu, 15 Jun 2023 17:29:22 +0200</pubDate>
+      
+      <guid>http://salvatore-ferrone.github.io/posts/etidal/</guid>
+      <description>The QR Code to this website Introduction Some images here describing the base concepts
+What is the Galaxy? What are globular clusters? globular cluster fun facts What are the tidal forces? what are tidal streams? History of tidal streams Palomar 5 being discovered 20 years ago mostly with color magnitude information and limited spatial information tidal streams in the era of Gaia Ibata et al using bayesian statistics to discover many more streams today since we have more from Gaia.</description>
+    </item>
+    
     <item>
       <title>PhD Checkpoint Num. 1</title>
       <link>http://salvatore-ferrone.github.io/posts/phd-checkpoint/</link>
