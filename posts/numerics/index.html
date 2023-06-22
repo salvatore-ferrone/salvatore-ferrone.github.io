@@ -3,11 +3,11 @@
 <meta http-equiv="content-type" content="text/html">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title itemprop="name">Posts | Beta site</title>
-<meta property="og:title" content="Posts | Beta site" />
-<meta name="twitter:title" content="Posts | Beta site" />
-<meta itemprop="name" content="Posts | Beta site" />
-<meta name="application-name" content="Posts | Beta site" />
+<title itemprop="name">Numerics | Beta site</title>
+<meta property="og:title" content="Numerics | Beta site" />
+<meta name="twitter:title" content="Numerics | Beta site" />
+<meta itemprop="name" content="Numerics | Beta site" />
+<meta name="application-name" content="Numerics | Beta site" />
 <meta property="og:site_name" content="Awesome hugo blog" />
 
 <meta name="description" content="Minimal Hugo blog theme with light and dark mode support">
@@ -32,15 +32,10 @@
     
     
     
-    <link rel="first" href="/posts/" />
-    <link rel="last" href="/posts/" />
-    
-    
-    
 
     <meta property="og:type" content="article" />
-    <meta property="og:article:published_time" content=2023-06-15T17:29:22&#43;0200 />
-    <meta property="article:published_time" content=2023-06-15T17:29:22&#43;0200 />
+    <meta property="og:article:published_time" content=1996-06-15T17:29:22&#43;0200 />
+    <meta property="article:published_time" content=1996-06-15T17:29:22&#43;0200 />
 
     
 
@@ -50,16 +45,16 @@
     {
         "@context": "http://schema.org",
         "@type": "Article",
-        "headline": "Posts",
+        "headline": "Numerics",
         "author": {
         "@type": "Person",
         "name": ""
         },
-        "datePublished": "2023-06-15",
+        "datePublished": "1996-06-15",
         "description": "",
-        "wordCount":  0 ,
+        "wordCount":  706 ,
         "mainEntityOfPage": "True",
-        "dateModified": "2023-06-15",
+        "dateModified": "1996-06-15",
         "image": {
         "@type": "imageObject",
         "url": ""
@@ -76,9 +71,7 @@
 
     
 
-    <link rel="canonical" href="http://salvatore-ferrone.github.io/posts/">
-    <link href="/posts/index.xml" rel="alternate" type="application/rss+xml" title="Beta site">
-    <link href="/posts/index.xml" rel="feed" type="application/rss+xml" title="Beta site">
+    <link rel="canonical" href="http://salvatore-ferrone.github.io/posts/numerics/">
     <link href="/style.min.41175b050032d7b140ed7b503e6724d0166055787dc68ff6fb7e4d5d7b9aebf1.css" rel="stylesheet">
     <link href="/code-highlight.min.706d31975fec544a864cb7f0d847a73ea55ca1df91bf495fd12a177138d807cf.css" rel="stylesheet">
 
@@ -101,7 +94,23 @@
     
     <link rel="icon" type="image/svg+xml" href="/icons/favicon.svg">
 
-    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/katex.min.css"
+    integrity="sha384-vKruj+a13U8yHIkAyGgK1J3ArTLzrFGBbBc0tDp4ad/EyewESeXE/Iv67Aj8gKZ0" crossorigin="anonymous" />
+
+
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/katex.min.js"
+    integrity="sha384-PwRUT/YqbnEjkZO0zZxNqcxACrXe+j766U2amXcgMg5457rve2Y7I6ZJSm2A0mS4"
+    crossorigin="anonymous"></script>
+
+
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/contrib/auto-render.min.js"
+    integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05" crossorigin="anonymous" onload="renderMathInElement(document.body, {
+      delimiters: [
+        {left: '$$', right: '$$', display: true},
+        {left: '$', right: '$', display: false}
+      ]
+    });"></script>
+
     </head>
 <body data-theme = "dark" class="notransition">
 
@@ -144,7 +153,7 @@ stroke-linejoin="round" class="feather feather-home">
                 </li>
                 
                 <li>
-                    <a class="menu-link " href="/posts/">
+                    <a class="menu-link active" href="/posts/">
                         Posts
                     </a>
                     
@@ -170,101 +179,123 @@ stroke-linejoin="round" class="feather feather-home">
         </div>
     </nav>
 </div>
-<div class="wrapper list-page">
-    <header class="header">
-        <h1 class="header-title center">Posts</h1>
-    </header>
+
+<div class="wrapper post">
     <main class="page-content" aria-label="Content">
-        
-        
-        <h2 class="post-year">2023</h2>
+        <article>
+            <header class="header">
+                <h1 class="header-title">Numerics</h1>
+                
+                <div class="post-meta">
+                    <time datetime="1996-06-15T17:29:22&#43;02:00" itemprop="datePublished"> Jun 15, 1996 </time>
+                </div>
+            </header><div class="page-content">
+                <h2 id="generation-of-the-initial-conditions">Generation of the initial conditions</h2>
+<p>Inverse transform sampling</p>
+<h2 id="treatment-of-the-uncertainties">Treatment of the uncertainties</h2>
+<p>Three main types of uncertainties:</p>
+<ol>
+<li>Observational uncertainties</li>
+<li>Modeling uncertainties</li>
+<li>Numerical uncertainties</li>
+</ol>
+<h3 id="observational-uncertainties">Observational uncertainties</h3>
+<p>From the Baumgart catalog, we have the following uncertainties:</p>
+<ul>
+<li>Line of sight velocities</li>
+<li>Distances</li>
+<li>Proper motions $\mu_{\alpha}$ and $\mu_{\delta}$
+<ul>
+<li>correlations between the proper motions</li>
+</ul>
+</li>
+<li>Total mass</li>
+</ul>
+<p>We also have quantities without reported uncertainties:</p>
+<ul>
+<li>RA</li>
+<li>DEC</li>
+<li>Half mass radius</li>
+</ul>
+<p>MAKE AND SHOW THE CORNER PLOT FOR A COUPLE GCs</p>
+<h3 id="modeling-uncertainties">Modeling uncertainties</h3>
+<p>Testing different models to see how the resultant stellar streams change is the main motivator of this study. We have a series of different models as well as modeling assumptions that we will test. For now, we have the following classes:</p>
+<ol>
+<li>Treatment of the galactic potential
+<ul>
+<li>See the dedicated section</li>
+</ul>
+</li>
+<li>Treatment of the internal dynamics of the globular cluster
+<ul>
+<li>See the dedicated section on this topic</li>
+</ul>
+</li>
+<li>The galactic reference frame
+<ul>
+<li>for now we use XX by XX. However, this is a changeable parameter in the code and we are able to change it to any other galactic reference frame.</li>
+</ul>
+</li>
+</ol>
+<h3 id="numerical-error">Numerical error</h3>
+<p>The numerical error is the error that is introduced by the numerical integration of the equations of motion. We use a leap frog schema, that is sympletic and ensures the conservation of energy. However, the numerical error is still present. We investigate the numerical error by testing different time steps compared to the a characteristic time of the particle of interest. For now, we are using the crossing time as this metric for both the particles within a globular cluster and the globular clusters within the galactic potential. We employ the following tests to gauge our numerical error:</p>
+<ol>
+<li>$ \Delta t $ - The time step.
+<ul>
+<li>For the system of globular clusters, we integrate the all clusters with the same $\Delta t$, which is the $\Delta t$ required to correctly resolve the shortest crossing time of the system. Choosing the shortest timescale ensures that the system is correctly resolved for all clusters. Additionally, we opted to not use an individual time step per system. Although this would be better for data storage, it would require a more complex code to manage each cluster with its own temporal grid. Additionally, the GC orbits are not the most intensive data quantity to store, the positions of the particles are. However, when choosing the $\Delta t$ for the system, we must be careful to not choose a $\Delta t$ that is too small. This would result in a large number of time steps and a large amount of data to store. Additionally, the computational time would be very large. Therefore, we test various quotients of the crossing time, $\Delta t \propto [1,2^{-1},5^{-1},10^{-1},50^{-1},100^{-1},150^{-1},200^{-1},300^{-1}] \tau_{cross}$. With this list in mind, we try a series of different tests. We test the following:
+<ul>
+<li>Conservation of energy of an isolated cluster</li>
+<li>The number of particles that escape the cluster</li>
+</ul>
+</li>
+<li>Of course, in an isolated system, energy is conserved. Thus, viewing energy conservation is an excellent metric. We allow the system to evolve for each time step and view the total energy, kinetic, and potential energy of each particle (be it the Globular Clusters or the star-particles). We track the RMS of the energy per time step and plot $\Delta E / E$ versus each $\Delta t$. We expect that the energy conservation will be better for smaller $\Delta t$. we choose a time step that has the energy conservation within $10^{-5}$.</li>
+</ul>
+</li>
+</ol>
+<p>PLOT E/&lt;E&gt; VERSUS T FOR MANY GCS WITH ONE DT. SHOW A FEW VERSIONS OF THIS PLOT FOR DIFFERENT DTs</p>
+<p>PLOT $\sigma_{E}/$&lt;E&gt; VERSUS DT FOR MANY GCS</p>
+<p>PLOT E/&lt;E&gt; VERSUS T FOR MANY GCS WITH ONE DT. DO A DENSE AND A SPARSE CLUSTER</p>
+<p>PLOT $\sigma_{E}/$&lt;E&gt; VERSUS DT FOR THE PARTICLES</p>
+<h2 id="numerical-integration">Numerical integration</h2>
+<ul>
+<li>leap frog
+<ul>
+<li>sympletic integrator
+<ul>
+<li>this essentially means that the energy is conserved, which ensures the long term stability of the orbit. This is favorable to the use of a Runge-Kutta integrator, which is not sympletic and is not stable over long time scales.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Fortran and f2py
+<ul>
+<li>And object oriented approach to the code</li>
+<li>All data management is done in python</li>
+<li>All numerical integration is done in Fortran</li>
+<li>Optional forces for each particle
+<ul>
+<li>Static galaxy
+<ul>
+<li>multiple galactic potential models</li>
+</ul>
+</li>
+<li>Dynamic elements
+<ul>
+<li>NBODY</li>
+<li>perturbers</li>
+<li>Galactic bar</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
 
-        
-
-        
-
-        <article class="post-item">
-    <h4 class="post-item-title">
-        <a href="/posts/etidal/">The e-Tidal Globular Cluster project</a>
-    </h4>
-    
-    
-    <time class="post-item-meta" datetime="2023-06-15T17:29:22&#43;0200">
-        Jun 15, 2023
-    </time>
-</article>
-
-
-        
-
-        <article class="post-item">
-    <h4 class="post-item-title">
-        <a href="/posts/phd-checkpoint/">PhD Checkpoint Num. 1</a>
-    </h4>
-    
-    
-    <time class="post-item-meta" datetime="2023-05-30T00:00:00Z">
-        May 30, 2023
-    </time>
-</article>
-
-
-        
-
-        <article class="post-item">
-    <h4 class="post-item-title">
-        <a href="/posts/ancient-asteroid-family/">Identification of 4.3 billion year old asteroid family and planetesimal population in the Inner Main Belt</a>
-    </h4>
-    
-    
-    <time class="post-item-meta" datetime="2023-05-22T00:00:00Z">
-        May 22, 2023
-    </time>
-</article>
-
-
-        
-
-        <article class="post-item">
-    <h4 class="post-item-title">
-        <a href="/posts/initial-conditions/">Generating Initial Conditions for the N-Body Problem</a>
-    </h4>
-    
-    
-    <time class="post-item-meta" datetime="2023-05-22T00:00:00Z">
-        May 22, 2023
-    </time>
-</article>
-
-
-         
-
-        
-        
-        <h2 class="post-year">1996</h2>
-
-        
-
-        
-
-        <article class="post-item">
-    <h4 class="post-item-title">
-        <a href="/posts/numerics/">Numerics</a>
-    </h4>
-    
-    
-    <time class="post-item-meta" datetime="1996-06-15T17:29:22&#43;0200">
-        Jun 15, 1996
-    </time>
-</article>
-
-
-         
-
-         
-
-    </main>
-</div><footer class="footer">
+            </div>
+        </article></main>
+</div>
+<footer class="footer">
     <span class="footer_item"> </span>
     &nbsp;
 

@@ -8,13 +8,15 @@
     <language>en-us</language>
     <lastBuildDate>Thu, 15 Jun 2023 17:29:22 +0200</lastBuildDate><atom:link href="http://salvatore-ferrone.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>The e-Tidal project</title>
+      <title>The e-Tidal Globular Cluster project</title>
       <link>http://salvatore-ferrone.github.io/posts/etidal/</link>
       <pubDate>Thu, 15 Jun 2023 17:29:22 +0200</pubDate>
       
       <guid>http://salvatore-ferrone.github.io/posts/etidal/</guid>
-      <description>The QR Code to this website Introduction Some images here describing the base concepts
-What is the Galaxy? What are globular clusters? globular cluster fun facts What are the tidal forces? what are tidal streams? History of tidal streams Palomar 5 being discovered 20 years ago mostly with color magnitude information and limited spatial information tidal streams in the era of Gaia Ibata et al using bayesian statistics to discover many more streams today since we have more from Gaia.</description>
+      <description>The QR Code to this website The Goal To model the mass loss of all Galactic Globular Clusters
+The basics What are globular clusters? What is the Galaxy? What do you mean by mass loss? Image of the Milky Way Globular Cluster NGC 7028 (M15) Credit: Credits: NASA, ESA
+Credit: NASA/JPL-Caltech/R. Hurt (SSC/Caltech)
+Fun facts There are about 160 globular clusters in the Milky Way Each globular cluster has about $10^4$ and $10^6$ stars For context, the milkway has about $10^{11}$ stars From isochrones, we know that the stars in globular clusters are about 10 billion years old making them some of the oldest objects in the Milky Way Stars in globular clusters are not very massive about 0.</description>
     </item>
     
     <item>
@@ -45,6 +47,19 @@ Why? How? Where? </description>
       <guid>http://salvatore-ferrone.github.io/posts/ancient-asteroid-family/</guid>
       <description>NOTE TO READER: THIS BLOG IS STILL IN THE BETA PHASE. I used it to present my work given in a talk à l&amp;rsquo;observatore de la côte d&amp;rsquo;azur. I am still working on it, to make it a full-fledge scientific blog to accompany the publication. But please go ahead if you will!
 Who, what, when, and where? I am Salvatore Ferrone, a PhD student at l&amp;rsquo;Observatoire de Paris, the first author of the paper, and the author of this blog.</description>
+    </item>
+    
+    <item>
+      <title>Numerics</title>
+      <link>http://salvatore-ferrone.github.io/posts/numerics/</link>
+      <pubDate>Sat, 15 Jun 1996 17:29:22 +0200</pubDate>
+      
+      <guid>http://salvatore-ferrone.github.io/posts/numerics/</guid>
+      <description>Generation of the initial conditions Inverse transform sampling
+Treatment of the uncertainties Three main types of uncertainties:
+Observational uncertainties Modeling uncertainties Numerical uncertainties Observational uncertainties From the Baumgart catalog, we have the following uncertainties:
+Line of sight velocities Distances Proper motions $\mu_{\alpha}$ and $\mu_{\delta}$ correlations between the proper motions Total mass We also have quantities without reported uncertainties:
+RA DEC Half mass radius MAKE AND SHOW THE CORNER PLOT FOR A COUPLE GCs</description>
     </item>
     
   </channel>
