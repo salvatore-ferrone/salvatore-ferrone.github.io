@@ -52,7 +52,7 @@
         },
         "datePublished": "2023-06-15",
         "description": "",
-        "wordCount":  972 ,
+        "wordCount":  1123 ,
         "mainEntityOfPage": "True",
         "dateModified": "2023-06-15",
         "image": {
@@ -206,21 +206,31 @@ Image of the Milky Way Globular Cluster NGC 7028 (M15) Credit: Credits: NASA, ES
 Credit: NASA/JPL-Caltech/R. Hurt (SSC/Caltech)</p>
 <h3 id="fun-facts">Fun facts</h3>
 <ul>
-<li>There are about 160 globular clusters in the Milky Way</li>
-<li>Each globular cluster has about $10^4$ and $10^6$ stars
+<li>
+<p>There are about 160 globular clusters in the Milky Way</p>
+</li>
+<li>
+<p>Each globular cluster has about $10^4$ and $10^6$ stars</p>
 <ul>
-<li>For context, the milkway has about $10^{11}$ stars</li>
+<li>For context, the Milky Way has about $10^{11}$ stars</li>
 </ul>
 </li>
-<li>From isochrones, we know that the stars in globular clusters are about 10 billion years old
+<li>
+<p>From isochrones, we know that the stars in globular clusters are about 10 billion years old</p>
 <ul>
 <li>making them some of the oldest objects in the Milky Way</li>
 </ul>
 </li>
-<li>Stars in globular clusters are not very massive about 0.8 $M_{\odot}$
+<li>
+<p>Stars in globular clusters are not very massive about 0.8 $M_{\odot}$</p>
 <ul>
 <li>the spectrum of masses typically span less than an order of magnitude</li>
 </ul>
+</li>
+<li>
+<p>0.8 $M_{\odot}$
+quando hai una populazione vecchia le stelle lasciono la sequenza principale, il turn e quando cambiano da idrogenon. piu che il turn off e bassa piu che la popolazione e vecchia. tutte quelle stelle massice sono altrove, forse nel branch dei giganti o sono diventati delle stelle che hanno smesso di briuciare idrogeno.
+so check with Misha about the turn off radius and average mass.</p>
 </li>
 </ul>
 <h3 id="animation-demonstrating-tidal-foces">Animation demonstrating tidal foces</h3>
@@ -248,7 +258,7 @@ Here is a simulation of a globular cluster in a tidal field. The point of view i
 <img src="https://cfn-live-content-bucket-iop-org.s3.amazonaws.com/journals/0004-637X/914/2/123/revision2/apjabfcc2f3_lr.jpg?AWSAccessKeyId=AKIAYDKQL6LTV7YY2HIK&amp;Expires=1688033903&amp;Signature=ZBfa5aXWzwm8N6wu0VKgEdUhYOQ%3D" alt="IbataEtAl2021"> <a href="https://cfn-live-content-bucket-iop-org.s3.amazonaws.com/journals/0004-637X/914/2/123/revision2/apjabfcc2f3_lr.jpg?AWSAccessKeyId=AKIAYDKQL6LTV7YY2HIK&amp;Expires=1688033903&amp;Signature=ZBfa5aXWzwm8N6wu0VKgEdUhYOQ%3D">Figure 3.</a> Credit: Ibata et al 2021. <em>Charting the Galactic Acceleration Field. I. A Search for Stellar Streams with Gaia DR2 and EDR3 with Follow-up from ESPaDOnS and UVES.</em> The Astrophysical Journal, Volume 914, Issue 2, id.123, 22 pp.</p>
 <h3 id="how-to-interpret-the-stellar-streams">How to interpret the stellar streams?</h3>
 <p>Are stellar streams good traces of GC orbits?
-Fig. 1 and 3 from Montuoiri et al 2008</p>
+Fig. 1 and 3 from Montuori et al 2008</p>
 <p>What about internal structure of the streams?
 Clumpy streams in a smooth dark halo: the case of Palomar 5
 FIG. 2 and 3 from Mastrobouno-Battisti et al 2018
@@ -279,7 +289,8 @@ from <a href="https://iopscience.iop.org/article/10.3847/1538-4357/ab2873/meta">
 <a href="https://cfn-live-content-bucket-iop-org.s3.amazonaws.com/journals/0004-637X/881/2/106/revision1/apjab2e07f8_lr.jpg?AWSAccessKeyId=AKIAYDKQL6LTV7YY2HIK&amp;Expires=1688040351&amp;Signature=IiKACDlZCdNOptCOZOdLUknPduU%3D">Figure 1.</a> Credit: Khyati Malhan et al 2019 ApJ 881 106. <a href="https://iopscience.iop.org/article/10.3847/1538-4357/ab2e07">DOI: 10.3847/1538-4357/ab2e07</a></p>
 <h2 id="the-projects-goals">The project&rsquo;s goals</h2>
 <ul>
-<li>To model the production of stellar streams from all milkway globular clusters</li>
+<li>To model the production of stellar streams from all Milky Way globular clusters</li>
+<li>Maybe we can discover more streams?</li>
 </ul>
 <h3 id="simulation-showing-many-streams-being-made-from-many-globular-clusters">Simulation showing many streams being made from many globular clusters</h3>
 
@@ -294,19 +305,28 @@ from <a href="https://iopscience.iop.org/article/10.3847/1538-4357/ab2873/meta">
 </ul>
 </li>
 </ul>
-<h2 id="techincal-details">Techincal details</h2>
+<h2 id="methods">Methods</h2>
+<h3 id="internal-dynamics">Internal dynamics</h3>
 <pre><code>- Plummer sphere
 - $10^5$ particles per cluster
+- typical $\delta t$ 
 </code></pre>
 <h3 id="galactic-potential-models">Galactic potential models</h3>
-<pre><code>- Pouliasis I
-- Pouliasis II
-- Pouliasis II plus BAR
+<pre><code>- Pouliasis et al. Model I (buldge, disk, halo)
+- Pouliasis et al. Model II (disk + disk + halo)
+- Pouliasis et al. Model II plus BAR ( disk + disk + halo + bar)
 </code></pre>
 <h2 id="results">Results</h2>
 <pre><code>Comparisons between different potentials
 Comparisons with different observations
 </code></pre>
+<h2 id="propective">Propective</h2>
+<pre><code>- how well does the stream match the orbit? 
+- which plots should we show?
+- more pertubers?
+- 
+</code></pre>
+<p>lo devo rendere molto accessibile senza degradare il messaggio e a EAS devo davvero sottolineare quello che avevo fatto e i nuovi risultati che ho ottenuto.</p>
 <p><a href="https://www.aanda.org/articles/aa/full_html/2023/05/aa44141-22/F1.html">ok</a></p>
 <h3 id="the-qr-code-to-the-data-repository">The QR Code to the data repository</h3>
 <p><img src="/etidal-QR-code.png" alt="etidal-QR-code"></p>
