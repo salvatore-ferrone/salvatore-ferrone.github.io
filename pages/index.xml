@@ -6,7 +6,17 @@
     <description>Recent content in Pages on Beta site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 25 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://salvatore-ferrone.github.io/pages/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 26 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://salvatore-ferrone.github.io/pages/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Salvatore Ferrone</title>
+      <link>http://salvatore-ferrone.github.io/pages/about/</link>
+      <pubDate>Mon, 26 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://salvatore-ferrone.github.io/pages/about/</guid>
+      <description>Current status My name is Salvatore Ferrone. I am a PhD student at the l&amp;rsquo;Observatoire de Paris, France. My PhD is split between l&amp;rsquo;observatoire de Paris and La Sapienza in Rome. I am interested in the dynamics stars emerging from Globular Clusters within the Milky Way.
+Previous Research Experience For my master&amp;rsquo;s thesis I discovered an ancient asteroid family in the main belt and published an article. Before this, I worked on the OSIRIS-REx mission analyzing visible-infrared spectra of one asteroid, 101955-Bennu, which was the missions target.</description>
+    </item>
+    
     <item>
       <title>Publications And Presentations</title>
       <link>http://salvatore-ferrone.github.io/pages/publications/</link>
@@ -16,16 +26,6 @@
       <description>Peer-reviewed Publications First Author Ferrone, Salvatore, Paola Di Matteo, Alessandra Mastrobuono-Battisti, Misha Haywood, Owain N. Snaith, Marco Montuori, Sergey Khoperskov, and David Valls-Gabaud. &amp;ldquo;The e-TidalGCs Project.&amp;rdquo; (2023). DOI.
 Ferrone, S. M., B. E. Clark, H. H. Kaplan, J-L. Rizos, X-D. Zou, J-Y. Li, M. A. Barucci et al. &amp;ldquo;Visible–near-infrared observations of organics and carbonates on (101955) Bennu: Classification method and search for surface context.&amp;rdquo; Icarus 368 (2021): 114579. DOI.
 Ferrone, Salvatore M.</description>
-    </item>
-    
-    <item>
-      <title>Salvatore Ferrone</title>
-      <link>http://salvatore-ferrone.github.io/pages/about/</link>
-      <pubDate>Thu, 25 May 2023 00:00:00 +0000</pubDate>
-      
-      <guid>http://salvatore-ferrone.github.io/pages/about/</guid>
-      <description>WEBSITE STILL IN THE BETA PHASE OK My name is Salvatore Ferrone. I am a PhD student at the l&amp;rsquo;Observatoire de Paris, France. I am interested in the dynamics stars emerging from Globular Clusters within the Milky Way. Previous, I have worked on the dynamics of asteroids in the Solar System as visible and infrared data analysis to support NASA&amp;rsquo;s OSIRIS-REx mission.
-Here is a random image from the Hugo template i am using.</description>
     </item>
     
   </channel>

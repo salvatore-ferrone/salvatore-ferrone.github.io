@@ -6,7 +6,7 @@
     <description>Recent content in Posts on Beta site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 30 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://salvatore-ferrone.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 25 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://salvatore-ferrone.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>PhD Checkpoint Num. 1</title>
       <link>http://salvatore-ferrone.github.io/posts/phd-checkpoint/</link>
@@ -15,16 +15,6 @@
       <guid>http://salvatore-ferrone.github.io/posts/phd-checkpoint/</guid>
       <description>the lingue officielle is franglais.
 PhD Checkpoint #1 To Dr. Gary Mamon and Dr. Françoise Combes, thank you for taking your time out to check in my progress. I hope that you will find my work satisfactory and can critique it freely in the aims of forming a better scientist. To Dr. Paola Di Matteo, thank you for directing me and providing me with an opportunity to make a valid contribution in astronomy.</description>
-    </item>
-    
-    <item>
-      <title>Generating Initial Conditions for the N-Body Problem</title>
-      <link>http://salvatore-ferrone.github.io/posts/initial-conditions/</link>
-      <pubDate>Mon, 22 May 2023 00:00:00 +0000</pubDate>
-      
-      <guid>http://salvatore-ferrone.github.io/posts/initial-conditions/</guid>
-      <description>What? Globular clusters are round
-Why? How? Where? </description>
     </item>
     
     <item>
@@ -49,7 +39,7 @@ Observational uncertainties Modeling uncertainties Numerical uncertainties Since
     </item>
     
     <item>
-      <title>The e-Tidal Globular Cluster project</title>
+      <title>Thesis Introduction</title>
       <link>http://salvatore-ferrone.github.io/posts/etidal/</link>
       <pubDate>Sat, 15 Jun 1996 17:29:22 +0200</pubDate>
       
