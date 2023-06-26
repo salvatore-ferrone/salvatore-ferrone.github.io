@@ -51,5 +51,25 @@ Fun facts There are about 160 globular clusters in the Milky Way
 Each globular cluster has about $10^4$ and $10^6$ stars</description>
     </item>
     
+    <item>
+      <title>Conclusions</title>
+      <link>http://salvatore-ferrone.github.io/posts/conclusions/</link>
+      <pubDate>Mon, 15 Jan 1996 17:29:22 +0200</pubDate>
+      
+      <guid>http://salvatore-ferrone.github.io/posts/conclusions/</guid>
+      <description>The data are available. Current improvements complete re-write of the code The goal is to include more perturbations current doing validation testing </description>
+    </item>
+    
+    <item>
+      <title>Results</title>
+      <link>http://salvatore-ferrone.github.io/posts/results/</link>
+      <pubDate>Mon, 15 Jan 1996 17:29:22 +0200</pubDate>
+      
+      <guid>http://salvatore-ferrone.github.io/posts/results/</guid>
+      <description>After implementing the methods defined in the previous section, we select some principal results and display them here
+What are the important things to say? that we have a prediction of the tidal debris coming from all galactic globular clusters. We present the results in three different ways: A global view. this includes looking at all of the debris as well as viewing them in distance from the center.
+We can present them one at a time, show the different types of morphologies</description>
+    </item>
+    
   </channel>
 </rss>
