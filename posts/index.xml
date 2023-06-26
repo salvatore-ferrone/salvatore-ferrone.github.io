@@ -6,20 +6,7 @@
     <description>Recent content in Posts on Beta site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 15 Jun 2023 17:29:22 +0200</lastBuildDate><atom:link href="http://salvatore-ferrone.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>The e-Tidal Globular Cluster project</title>
-      <link>http://salvatore-ferrone.github.io/posts/etidal/</link>
-      <pubDate>Thu, 15 Jun 2023 17:29:22 +0200</pubDate>
-      
-      <guid>http://salvatore-ferrone.github.io/posts/etidal/</guid>
-      <description>The QR Code to this website The Goal To model the mass loss of all Galactic Globular Clusters
-The basics What are globular clusters? What is the Galaxy? What do you mean by mass loss? Image of the Milky Way Globular Cluster NGC 7028 (M15) Credit: Credits: NASA, ESA
-Credit: NASA/JPL-Caltech/R. Hurt (SSC/Caltech)
-Fun facts There are about 160 globular clusters in the Milky Way
-Each globular cluster has about $10^4$ and $10^6$ stars</description>
-    </item>
-    
+    <lastBuildDate>Tue, 30 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://salvatore-ferrone.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>PhD Checkpoint Num. 1</title>
       <link>http://salvatore-ferrone.github.io/posts/phd-checkpoint/</link>
@@ -51,16 +38,27 @@ Who, what, when, and where? I am Salvatore Ferrone, a PhD student at l&amp;rsquo
     </item>
     
     <item>
-      <title>Numerics</title>
+      <title>Numerical methods</title>
       <link>http://salvatore-ferrone.github.io/posts/numerics/</link>
       <pubDate>Sat, 15 Jun 1996 17:29:22 +0200</pubDate>
       
       <guid>http://salvatore-ferrone.github.io/posts/numerics/</guid>
-      <description>Generation of the initial conditions Inverse transform sampling
+      <description>I believe the best way to discuss the methods used to in this numerical simulation is to introduce the concepts through the treatment of the uncertainties.
 Treatment of the uncertainties Three main types of uncertainties:
-Observational uncertainties Modeling uncertainties Numerical uncertainties Observational uncertainties From the Baumgart catalog, we have the following uncertainties:
-Line of sight velocities Distances Proper motions $\mu_{\alpha}$ and $\mu_{\delta}$ correlations between the proper motions Total mass We also have quantities without reported uncertainties:
-RA DEC Half mass radius MAKE AND SHOW THE CORNER PLOT FOR A COUPLE GCs</description>
+Observational uncertainties Modeling uncertainties Numerical uncertainties Since we are trying to reproduce observations, we can define three levels of uncertainty. First, are the observational uncertainties on the globular cluster&amp;rsquo;s that we are using as the starting point.</description>
+    </item>
+    
+    <item>
+      <title>The e-Tidal Globular Cluster project</title>
+      <link>http://salvatore-ferrone.github.io/posts/etidal/</link>
+      <pubDate>Sat, 15 Jun 1996 17:29:22 +0200</pubDate>
+      
+      <guid>http://salvatore-ferrone.github.io/posts/etidal/</guid>
+      <description>The QR Code to this website The Goal To model the mass loss of all Galactic Globular Clusters
+The basics What are globular clusters? What is the Galaxy? What do you mean by mass loss? Image of the Milky Way Globular Cluster NGC 7028 (M15) Credit: Credits: NASA, ESA
+Credit: NASA/JPL-Caltech/R. Hurt (SSC/Caltech)
+Fun facts There are about 160 globular clusters in the Milky Way
+Each globular cluster has about $10^4$ and $10^6$ stars</description>
     </item>
     
   </channel>
