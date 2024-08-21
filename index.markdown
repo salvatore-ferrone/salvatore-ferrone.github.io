@@ -6,13 +6,15 @@ layout: home
 title: "Bienvenue"
 ---
 
-# Ok
-Words
 
-## Section 1
-Quelques paroles
+<div style="display: flex; justify-content: center; align-items: center;">
 
-### Section 2
-Encore plus des mots
+<img src="/assets/img/me_art_brazil_2023.webp" alt="face pic" style="width: 400px; height: auto; border-radius: 50%;">
+</div>
+
+
+
+
+
 
 # Blog posts

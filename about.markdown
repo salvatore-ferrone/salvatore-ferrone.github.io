@@ -1,9 +1,16 @@
 ---
-layout: page
+layout: "page"
 title: About
 permalink: /about/
 ---
 
-# About Me
+Welcome. Here are all the posts:
 
-This is the about page where you can write about yourself or your website.
+
+<ul>
+{% for post in site.posts %}
+    <li>
+        <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+{% endfor %}
+</ul>
