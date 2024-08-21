@@ -21,7 +21,7 @@
 title: Salvatore Ferrone
 email: salvatore-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  A website dedicated to my scientific research and personal interests.
+  Astronomy 🔭 PhD Student at l'Observatoire de Paris 🥖 and l'Università di Roma, Sapienza 🍝
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
