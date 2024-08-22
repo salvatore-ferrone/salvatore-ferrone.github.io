@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-Welcome. Here are all the posts:
+Welcome. One day, I may have many posts here. For now, here is a link to a great collection of human knowledge: [wikipedia](https://wikipedia.org)
 
 
 <ul>
