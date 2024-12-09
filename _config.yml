@@ -49,8 +49,8 @@ defaults:
       image: true
 
 
-header_pages:
-  - about.markdown
+# header_pages:
+  # - about.markdown
 
 
 
