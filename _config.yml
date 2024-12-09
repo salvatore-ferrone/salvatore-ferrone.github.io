@@ -19,12 +19,12 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Salvatore Ferrone
-email: salvatore-email@example.com
+email: salvatore.ferrone@uniroma1.it
 description: >- # this means to ignore newlines until "baseurl:"
   Astronomy 🔭 PhD Student at l'Observatoire de Paris 🥖 and l'Università di Roma, Sapienza 🍝
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
+url: "https://salvatore-ferrone.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: ""
 github_username:  salvatore-ferrone
 
 # Build settings
